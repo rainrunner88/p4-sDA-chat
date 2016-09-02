@@ -1,4 +1,4 @@
-PORT = process.env.PORT || 8080;
+PORT = process.env.PORT || 80;
 const app = require('express')();
 const http = require('http').Server(app);
 const bodyParser = require('body-parser');
